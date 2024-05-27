@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV - Bronya Zaychik</title>
+    <title>CV - Mohamad Royan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,13 +13,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
 
+    <!-- CSS Animasi -->
+    <style>
+        .marquee-blink {
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #FF0000; /* Warna teks */
+        }
+
+        .marquee-blink span {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 10s linear infinite, blink 1s step-start infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
 </head>
 
 <body class="bg-light" style="font-family: Nunito, sans-serif;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm bg-white">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <b>@bronyazaychik</b>
+                <b>@mohamadroyan</b>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -57,15 +83,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 mb-5 mb-md-0">
-                    <img src="save.jpg" alt="bronya" class="img-fluid rounded-4 shadow-lg">
+                    <img src="foto.jpg" alt="royan" class="img-fluid rounded-4 shadow-lg">
                 </div>
                 <div class="col-md-9 mt-md-5">
                     <div class="ms-md-4 pt-md-5">
                         <div class=" text-md-start text-center">
-                            <h1><b>Bronya</b> Zaychik </h1>
+                            <h1><b>Mohamad</b> Royan </h1>
                             <h5 class="text-secondary">
-                                <b>Chief Executive Officer</b> at
-                                <a href="spesolution.com" class="text-decoration-none text-primary-emphasis" target="_blank">Mihoyo</a>
+                                <b>Mahasiswa</b> at
+                                <a href="spesolution.com" class="text-decoration-none text-primary-emphasis" target="_blank">Politeknik Negeri Banyuwangi</a>
                             </h5>
                         </div>
                     </div>
@@ -84,15 +110,13 @@
                         <div class="col-md-12 mb-3">
                             <div class="card shadow-sm border-0 rounded-4">
                                 <div class="card-body">
-                                    <span class="badge bg-primary">2019 - 2020</span>
-                                    <h5 class="mt-2 mb-0">Sekolah Menengah St. Freya</h5>
+                                    <span class="badge bg-primary">2020 - 2023</span>
+                                    <h5 class="mt-2 mb-0">SMKN 1 BANYUWANGI</h5>
                                     <p class="text-body-tertiary mb-0">Keterangan | Lulus</p>
 
                                     <div class="mt-2">
-                                        <p class="mb-1">Pelajaran yang saya ikuti : </p>
-                                        <span class="badge text-bg-light">Data Honkai</span>
-                                        <span class="badge text-bg-light">Ilmu Dunia Honkai</span>
-                                        <span class="badge text-bg-light">Komputer & website</span>
+                                        <p class="mb-1">Jurusan yang saya ikuti : </p>
+                                        <span class="badge text-bg-light">Teknik Jaringan & Komputer</span>
                                     </div>
                                 </div>
                             </div>
@@ -100,15 +124,16 @@
                         <div class="col-md-12 mb-3">
                             <div class="card shadow-sm border-0 rounded-4">
                                 <div class="card-body">
-                                    <span class="badge bg-primary">2015 - 2018</span>
-                                    <h5 class="mt-2 mb-0">Mahasiswa Assassin</h5>
-                                    <p class="text-body-tertiary mb-0">Keterangan | Lulus </p>
+                                    <span class="badge bg-primary">2023 - Sekarang</span>
+                                    <h5 class="mt-2 mb-0">POLITEKNIK NEGERI BANYUWANGI</h5>
+                                    <p class="text-body-tertiary mb-0">Keterangan | Mahasiswa </p>
                                     <div class="mt-2">
                                         <p class="mb-1">Mata Kuliah yang saya ikuti : </p>
-                                        <span class="badge text-bg-light">Menembak</span>
-                                        <span class="badge text-bg-light">Berpedang</span>
-                                        <span class="badge text-bg-light">Membuat Senjata</span>
-                                        <span class="badge text-bg-light">Membuat & Memperbaiki Robot</span>
+                                        <span class="badge text-bg-light">Pemrograman Dasar</span>
+                                        <span class="badge text-bg-light">Struktur Data</span>
+                                        <span class="badge text-bg-light">Basis Data</span>
+                                        <span class="badge text-bg-light">Desain Interaksi</span>
+                                        <span class="badge text-bg-light">Algoritma Pemrograman Dasar</span>
                                     </div>
                                 </div>
                             </div>
@@ -124,15 +149,17 @@
                         <div class="col-md-12 mb-3">
                             <div class="card shadow-sm border-0 rounded-4">
                                 <div class="card-body">
-                                    <span class="badge bg-secondary">2023 - Sekarang</span>
-                                    <h5 class="mt-2 mb-0"><b>Mihoyo</b></h5>
-                                    <p class="text-body-tertiary mb-0">Software Engineer</p>
+                                    <span class="badge bg-secondary">2022</span>
+                                    <h5 class="mt-2 mb-0"><b>Praktek Kerja Lapangan Kecamatan Glagah</b></h5>
+                                    <p class="text-body-tertiary mb-0"></p>
                                     <hr class="mt-2 mb-3 text-body-tertiary">
 
                                     <div class="mt-2">
                                         <ul class="mb-0">
-                                            <li>Melakukan pembuatan website</li>
-                                            <li>Bekerjasama dengan Tim untuk membuat aplikasi</li>
+                                            <li>Membantu pelayanan</li>
+                                            <li>Membantu surat menyurat</li>
+                                            <li>Membantu editing vidio</li>
+                                            <li>Bekerjasama dengan Tim untuk perekaman</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -141,13 +168,15 @@
                         <div class="col-md-12 mb-3">
                             <div class="card shadow-sm border-0 rounded-4">
                                 <div class="card-body">
-                                    <span class="badge bg-secondary">2024 - Sekarang</span>
-                                    <h5 class="mt-2 mb-0"><b>Mihoyo</b></h5>
-                                    <p class="text-body-tertiary mb-0">CEO</p>
+                                    <span class="badge bg-secondary">2022 - 2023</span>
+                                    <h5 class="mt-2 mb-0"><b>Tefa TKJ</b></h5>
+                                    <p class="text-body-tertiary mb-0">Anggota</p>
                                     <hr class="mt-2 mb-3 text-body-tertiary">
 
                                     <div class="mt-2">
-                                        <p class="mb-0">Pemimpin</p>
+                                        <p class="mb-0">Memperbaiki Laptop/PC</p>
+                                        <p class="mb-0">Melayani Pelanggan</p>
+                                        <p class="mb-0">Memperbaiki alat elektronik/PC</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,16 +198,16 @@
                     <!-- Keahlian atau skill yang kamu bisa atau kuasai -->
 
                     <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
-                        Pemimpin Perusahaan
+                        Routing
                     </a>
                     <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
-                        Pengembangan Web
+                        Membuat Wifi
                     </a>
                     <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
-                        Pembuatan Game
+                        Desain Website UI
                     </a>
                     <a class="btn btn-primary text-bg-light text-start mb-2 me-1">
-                        Pengembangan Game
+                        Microsoft Office (World, PPT, Excel)
                     </a>
                 </div>
                 <div class="col-md-6 mt-5 mt-md-0">
@@ -187,40 +216,42 @@
                         <div class="col-md-12 mb-3">
                             <div class="card shadow-sm border-0 rounded-4">
                                 <div class="card-body">
-                                    <h6 class="mt-0 mb-0">Pengajaran Tentang Game</h6>
-                                    <p class="text-body-tertiary mb-0">Mihoyo</p>
+                                    <h6 class="mt-0 mb-0">Pengajaran Tentang (HTML,CSS,JAVASCRIPT,PHP,bootstrap)</h6>
+                                    <p class="text-body-tertiary mb-0">Poliwangi</p>
                                 </div>
                             </div>
                         </div>
+                        <!--buat animasi bergerak disini  -->
                         <div class="col-md-12 mb-3">
                             <div class="card shadow-sm border-0 rounded-4">
-                                <div class="card-body">
-                                    <h6 class="mt-0 mb-0">Pembuatan Game</h6>
-                                    <p class="text-body-tertiary mb-0">Mihoyo</p>
+                                <div class="card-body marquee-blink">
+                                    <span>TERIMAKASIH TELAH BERKUNJUNG</span>
+                                    <p class="text-body-tertiary mb-0"></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!--buat animasinya disini  -->
 
                 <div class="col-md-12 mt-5 mt-md-3">
                     <h3 class="mb-3">Ketertarikan</h3>
                     <!-- Ketertarikan terkait industri yang kamu tuju seperti profesi, bidang, atau yang lain -->
 
                     <a class="btn btn-success text-bg-light text-start mb-2 me-1">
-                        Software Development
+                        Game
                     </a>
                     <a class="btn btn-success text-bg-light text-start mb-2 me-1">
-                       Boneka Homu
+                       Menggambar
                     </a>
                     <a class="btn btn-success text-bg-light text-start mb-2 me-1">
-                        Berperang
+                        Jalan santai
                     </a>
                     <a class="btn btn-success text-bg-light text-start mb-2 me-1">
                         Leadership
                     </a>
                     <a class="btn btn-success text-bg-light text-start mb-2 me-1">
-                        Teaching
+                        Coding
                     </a>
                 </div>
             </div>
@@ -238,10 +269,6 @@
                     <div class="mb-3">
                         <a class="btn btn-primary me-1" data-bs-toggle="modal" data-bs-target="#modalKontak">
                             <b>Hubungi Saya</b>
-                        </a>
-                        <a href="https://translate.google.com/translate?u=https://honkaiimpact3.fandom.com/wiki/Bronya_Zaychik&hl=id&sl=en&tl=id&client=srp&prev=search"
-                            class="btn btn-outline-primary" target="_blank">
-                            <b>Download CV</b>
                         </a>
                     </div>
                 </div>
@@ -282,17 +309,7 @@
                         <div class="card-body">
                             <h5 class="mb-0">No. HP / Whatsapp</h5>
                             <p class="mb-0">
-                                <b>Nomer HP</b>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card bg-light border-primary-subtle mb-3 rounded-4">
-                        <div class="card-body">
-                            <h5 class="mb-0">Linkedin</h5>
-                            <p class="mb-0">
-                                <a href="linkbronya" target="_blank">
-                                    linkedin.com/in/<b>bronya</b>
-                                </a>
+                                <b>+6285853585469</b>
                             </p>
                         </div>
                     </div>
@@ -300,7 +317,7 @@
                         <div class="card-body">
                             <h5 class="mb-0">Email</h5>
                             <p class="mb-0">
-                                <b>bronyazaychik.dev@gmail.com</b>
+                                <b>mohamadroyan120@gmail.com</b>
                             </p>
                         </div>
                     </div>
@@ -308,7 +325,7 @@
                         <div class="card-body">
                             <h5 class="mb-0">Instagram</h5>
                             <p class="mb-0">
-                                <b><a href="bronya/">@bronya__</a></b>
+                                <b><a href="https://www.instagram.com/mohamadroyan1210?igsh=MXV0dmVmd3Q3anNkZQ==" class="text-dark">@royan</a></b>
                             </p>
                         </div>
                     </div>
